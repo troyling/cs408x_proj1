@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project1_3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="web1">Website 1</string>
+    <string name="web2">Website 2</string>
+    <string name="web3">Website 3</string>
+</resources>
