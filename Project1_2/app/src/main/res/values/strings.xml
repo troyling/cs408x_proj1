@@ -3,4 +3,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="myPictureDescription">mypicture</string>
+    <string name="ruofanPictureDescription">ruofan\'s picture</string>
 </resources>

@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
  * Created by troyling on 3/20/15.
  */
 public class ListAdapter extends ArrayAdapter {
-    private static final int NUM_ITEM = 20;
+    private static final int NUM_ITEM = 10;
     private Context context;
 
     public ListAdapter(Context context, int resource) {
@@ -22,15 +22,11 @@ public class ListAdapter extends ArrayAdapter {
         return NUM_ITEM;
     }
 
-    public Context getContext() {
-        return context;
-    }
-
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View v = convertView;
         LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        v = position%2 == 0 ? inflater.inflate(R.layout.rowlayout1, null, true) : inflater.inflate(R.layout.rowlayout2, null, true);
+        v = inflater.inflate(R.layout.rowlayout, null, false);
         return v;
     }
 
