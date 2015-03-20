@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project1_1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loginTitle">Log into Zhuohao\'s page</string>
+    <string name="usernameTitle">Username</string>
+    <string name="pwdTitle">Password</string>
+    <string name="loginBtnTitle">Log In</string>
+</resources>
