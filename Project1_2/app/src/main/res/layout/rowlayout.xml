@@ -9,8 +9,8 @@
         android:background="#ff2b77ff"
         android:id="@+id/meLayout">
         <ImageView
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:src="@drawable/me"
             android:contentDescription="@string/myPictureDescription" />
     </RelativeLayout>
@@ -24,8 +24,8 @@
         android:layout_below="@+id/meLayout">
 
         <ImageView
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:src="@drawable/ruofan"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
